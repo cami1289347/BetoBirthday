@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz Cumpleaños Beto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="encabezado">
+   
+  </header>
+
+  <p class="subtitulo">Hola betoo!! Haz clic en cada cajita para descubrir tu sorpresa</p>
+
+  <div class="gift-grid" id="giftGrid"></div>
+
+  <!-- ✅ MODAL REESTRUCTURADO -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <img id="surpriseImg" src="" alt="Sorpresa">
+      <button id="closeBtn">❌</button>
+    </div>
+  </div>
+
+  <footer>
+    <p class="dedicatoria"> Con cariño los Feirly's Tequeños <3 </p>
+    <img src="img/creditos.png" alt="Créditos" class="creditos-img">
+
+  </footer>
+
+  <audio id="sound" src="audio/open.mp3" preload="auto"></audio>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
