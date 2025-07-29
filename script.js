@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const sound = document.getElementById('sound');
   const closeBtn = document.getElementById('closeBtn');
 
-  for (let i = 1; i <= 24; i++) {
+  for (let i = 1; i <= 27; i++) {
     const box = document.createElement('div');
     box.classList.add('gift-box');
 
